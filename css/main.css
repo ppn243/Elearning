@@ -142,6 +142,7 @@ body {
   position: absolute;
   right: 0;
   top: 60px;
+  z-index: 1;
   border-top: 1px solid rgba(20, 23, 28, 0.05);
   box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
 }
@@ -167,8 +168,57 @@ body {
 .myNavBar .myNavBar__right .navbar-nav .myNavBar__cart .nav-link {
   font-size: 20px;
 }
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons {
+  display: flex;
+}
 .myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons:hover {
   background-color: transparent;
+}
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons .button--white {
+  margin-right: 5px;
+}
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons .button {
+  white-space: nowrap;
+}
+@media screen and (min-width: 1200px) and (max-width: 1375px) {
+  .myNavBar .myNavBar__right .navbar-nav .nav-item {
+    white-space: nowrap;
+  }
+  .myNavBar .myNavBar__right .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+    text-align: center;
+  }
+  .myNavBar .myNavBar__right .navbar-nav .nav-item .overlay {
+    white-space: normal;
+  }
+  .myNavBar .myNavBar--reset {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .myNavBar .business,
+  .myNavBar .instrustor {
+    display: none;
+  }
+  .myNavBar .myNavBar__right .navbar-nav {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .myNavBar .myNavBar__left .myNavBar__categories,
+  .myNavBar .myNavBar__left .myNavBar__form-search {
+    display: none;
+  }
+  .myNavBar .myNavBar__right {
+    width: 50%;
+    margin-left: auto;
+  }
+  .myNavBar .myNavBar__right .navbar-nav {
+    text-align: center;
+  }
+  .myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons {
+    display: none;
+  }
 }
 
 footer {

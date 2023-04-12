@@ -41,8 +41,21 @@
   <body>
     <!-- HEADER  -->
     <header>
-      <nav class="myNavBar navbar navbar-expand-lg navbar-light">
-        <div class="col-7 myNavBar__col">
+      <nav class="myNavBar navbar navbar-expand-md navbar-light">
+        <div class="d-md-none col-sm-2 col-3">
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="col-xl-7 col-lg-9 col-md-8 col-sm-8 col-6 myNavBar__col">
           <div class="myNavBar__left">
             <a class="navbar-brand" href="#"
               ><img src="./img/logo-coral.svg" alt="logo" />
@@ -67,10 +80,10 @@
             </form>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-xl-5 col-lg-3 col-md-4 col-sm-2 col-3 myNavBar--reset">
           <div class="myNavBar__right">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
+              <li class="nav-item business">
                 <a class="nav-link" href="#">Udemy for Business</a>
                 <div class="overlay">
                   <p>
@@ -80,7 +93,7 @@
                   <a href="#">Try Udemy for Business</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <li class="nav-item instrustor">
                 <a class="nav-link" href="#">Become an Intrustor</a>
                 <div class="overlay">
                   <p>
@@ -102,17 +115,6 @@
             </ul>
           </div>
         </div>
-        <!-- <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
       </nav>
     </header>
 
