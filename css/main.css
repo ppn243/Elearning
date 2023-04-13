@@ -303,6 +303,16 @@ footer .footer__bottom .nav-link {
   font-size: 15px;
   font-weight: normal;
 }
+@media screen and (max-width: 1200px) {
+  .intro .intro__content .intro__icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    display: none;
+  }
+}
 
 .courses {
   margin: 25px 0;
@@ -344,6 +354,26 @@ footer .footer__bottom .nav-link {
   border: none;
   border-bottom: 5px solid #007791;
 }
+@media screen and (max-width: 1359px) {
+  .courses .courses__content .card {
+    height: 275px;
+    margin-right: 1px;
+  }
+  .courses .courses__content .card .card-body {
+    padding: 1rem;
+  }
+  .courses .courses__content .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .courses .courses__content .courses__left {
+    padding: 20px;
+  }
+}
 
 .viewing {
   padding: 22px 0;
@@ -354,6 +384,21 @@ footer .footer__bottom .nav-link {
 }
 .viewing .viewing__content h2 {
   font-size: 20px;
+}
+@media screen and (max-width: 1359px) {
+  .viewing .viewing__content .card {
+    height: 275px;
+    margin-right: 1px;
+  }
+  .viewing .viewing__content .card .card-body {
+    padding: 1rem;
+  }
+  .viewing .viewing__content .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
 }
 
 .banner {
@@ -424,6 +469,29 @@ footer .footer__bottom .nav-link {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 1200px) {
+  .partners .partners__content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .partners .partners__content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .partners .partners__content {
+    width: 60%;
+  }
+  .partners .partners__content .partners__imgs {
+    flex-wrap: wrap;
+  }
+  .partners .partners__content .partners__imgs .partners__items {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
 
 .jobs {
   background-color: #f7f8fa;
@@ -441,6 +509,11 @@ footer .footer__bottom .nav-link {
   color: #505763;
   font-size: 19px;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .jobs .border-right {
+    border-right: none !important;
+  }
 }
 
 .button--white {
@@ -548,6 +621,12 @@ footer .footer__bottom .nav-link {
 .cover .cover__content .cover__form .input-group .input-group-append .input-group-text:hover {
   color: #fff;
   background-color: #ec5252;
+}
+@media screen and (max-width: 576px) {
+  .cover .cover__content {
+    max-width: 400px;
+    left: 10%;
+  }
 }
 
 .card {

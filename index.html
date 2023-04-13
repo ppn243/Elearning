@@ -44,16 +44,16 @@
       <nav class="myNavBar navbar navbar-expand-md navbar-light">
         <div class="d-md-none col-sm-2 col-3">
           <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
         <div class="col-xl-7 col-lg-9 col-md-8 col-sm-8 col-6 myNavBar__col">
           <div class="myNavBar__left">
@@ -188,7 +188,7 @@
     <section class="courses">
       <div class="courses__content">
         <div class="row">
-          <div class="col-4 courses__left">
+          <div class="col-xl-4 col-md-3 col-12 courses__left">
             <div>
               <h2>Lorem ipsum dolor sit amet consectetur.</h2>
               <p>
@@ -197,7 +197,7 @@
               </p>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-xl-8 col-md-9 col-12">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button
@@ -665,49 +665,49 @@
       <div class="categories__content">
         <h2>Top Categories</h2>
         <div class="row">
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-code"></i>
               <span>Development</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-chart-bar"></i>
               <span>Business</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-laptop"></i>
               <span>IT and Software</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-pencil-alt"></i>
               <span>Design</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-bullseye"></i>
               <span>Marketing</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-book"></i>
               <span>Personal Develpment</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-camera-retro"></i>
               <span>Photography</span>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <div class="categories__items">
               <i class="fa fa-music"></i>
               <span>Music</span>
@@ -912,7 +912,7 @@
     <section class="jobs">
       <div class="jobs__content container-fluid">
         <div class="row">
-          <div class="col-6 border-right">
+          <div class="col-md-6 col-12 border-right">
             <div class="jobs__items">
               <h2>Become an Instructor</h2>
               <p>
@@ -923,7 +923,7 @@
               <button class="button--red">Start teaching today</button>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-12">
             <div class="jobs__items">
               <h2>Udemy for Business</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -938,7 +938,7 @@
     <footer>
       <div class="footer__top">
         <div class="row">
-          <div class="col-9">
+          <div class="col-md-9 col-12">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link bold" href="#">Udemy for Business</a>
@@ -972,8 +972,8 @@
               </li>
             </ul>
           </div>
-          <div class="col-3">
-            <div class="btn-group dropup text-right">
+          <div class="col-md-3 col-12">
+            <div class="btn-group dropup text-md-right">
               <button
                 type="button"
                 class="btn button--dropup dropdown-toggle"
@@ -996,20 +996,22 @@
           </div>
         </div>
       </div>
-      <hr>
+      <hr />
       <div class="footer__bottom">
         <div class="row">
-          <div class="col-6">
-            <img src="./img/logo-coral.svg" alt="logo">
+          <div class="col-md-6 col-12">
+            <img src="./img/logo-coral.svg" alt="logo" />
             <span>Copyright &copy; 2020 Udemy, Inc.</span>
           </div>
-          <div class="col-6">
-            <ul class="nav justify-content-end">
+          <div class="col-md-6 col-12">
+            <ul class="nav justify-content-md-end">
               <li class="nav-item">
                 <a class="nav-link" href="#">Terms</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Privacy Policy and Cookie Policy</a>
+                <a class="nav-link" href="#"
+                  >Privacy Policy and Cookie Policy</a
+                >
               </li>
             </ul>
           </div>
@@ -1044,13 +1046,20 @@
         dots: false,
         responsive: {
           0: {
-            items: 1,
+            items: 2,
+            margin: 5,
           },
           600: {
             items: 3,
+            margin: 5,
           },
           1000: {
             items: 4,
+            margin: 5,
+          },
+          1450: {
+            items: 4,
+            margin: 15,
           },
         },
       });
@@ -1063,13 +1072,24 @@
         dots: false,
         responsive: {
           0: {
-            items: 1,
+            items: 2,
+            margin: 5,
           },
           600: {
             items: 3,
+            margin: 5,
+          },
+          768: {
+            items: 4,
+            margin: 5,
           },
           1000: {
             items: 6,
+            margin: 5,
+          },
+          1450: {
+            items: 6,
+            margin: 15,
           },
         },
       });
@@ -1084,10 +1104,10 @@
           0: {
             items: 1,
           },
-          600: {
-            items: 3,
+          900: {
+            items: 2,
           },
-          1000: {
+          1200: {
             items: 3,
           },
         },

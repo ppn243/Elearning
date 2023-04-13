@@ -7,4 +7,21 @@
             font-size: $fs-3 + 2;
         }
     }
+    @include responsive("screen-1") {
+        .viewing__content {
+            .card {
+                height: 275px;
+                margin-right: 1px;
+
+                .card-body {
+                    padding: 1rem;
+
+                    .card-title {
+                        @include styleText($color-black-0, $fs-1, $fw-1);
+                        margin-bottom: $mg-0 + 5;
+                    }
+                }
+            }
+        }
+    }
 }
